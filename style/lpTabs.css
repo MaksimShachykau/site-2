@@ -1,0 +1,46 @@
+.lp-tabs{
+    padding: 20px;
+    
+}
+.lp-tabs .lp-tabs-titles{
+    position: relative;
+}
+.lp-tabs .lp-tabs-titles ul{
+    padding: 0;
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+.lp-tabs .lp-tabs-titles ul li{
+    display: inline-block;
+    background: #b37020;
+    color: #f3eba3;
+    margin: 5px;
+    margin-top: 30px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: color .25s, 
+    background-color .25s;
+    -webkit-transition: color .25s, background-color .25s;
+    -moz-transition: color .25s, background-color .25s;
+    -ms-transition: color .25s, background-color .25s;
+    -o-transition: color .25s, background-color .25s;
+    
+}
+.lp-tabs .lp-tabs-titles ul li:hover,
+.lp-tabs .lp-tabs-titles ul li.active{
+    color: #d1cb88;
+    background-color: #c97f25;
+}
+
+.lp-tabs .lp-tabs-content{
+    position: relative;
+
+}
+.lp-tabs .lp-tabs-content .lp-tab{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: none;
+}
