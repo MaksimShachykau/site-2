@@ -90,6 +90,7 @@ h1,h2,h3{
 
 .slider .section{
     height: 100vh;
+    max-height: 1000px;
     padding-top: 20%;
     text-align: center;
 }
@@ -510,7 +511,8 @@ float: right;
     background-image: url(/img/contact.jpg);
     background-size:cover ;
     max-width: 2000px;
-    min-height: 80vh;
+    height: 100vh;
+    max-height: 1000px;
     padding-top: 40px;
 }
 #maps{
@@ -649,7 +651,7 @@ float: right;
 
 
 footer{
-    margin-top: 40px;
+    margin-top: -140px;
     height: 80px;
     color: #353112;
 }
